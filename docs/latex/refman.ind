@@ -1,0 +1,15 @@
+\begin{theindex}
+
+  \item {bubblesort}
+    \subitem {bubblesort.cpp}, \hyperpage{4}
+  \item {bubblesort.cpp}
+    \subitem {bubblesort}, \hyperpage{4}
+    \subitem {swap}, \hyperpage{5}
+
+  \indexspace
+
+  \item {sorting/bubblesort/bubblesort.cpp}, \hyperpage{3}
+  \item {swap}
+    \subitem {bubblesort.cpp}, \hyperpage{5}
+
+\end{theindex}

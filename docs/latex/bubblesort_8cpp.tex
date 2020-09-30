@@ -1,0 +1,73 @@
+\hypertarget{bubblesort_8cpp}{}\section{sorting/bubblesort/bubblesort.cpp File Reference}
+\label{bubblesort_8cpp}\index{sorting/bubblesort/bubblesort.cpp@{sorting/bubblesort/bubblesort.cpp}}
+
+
+A program that implements bubblesort.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{bubblesort_8cpp_ac2353dbd40ac679cac5ce9213952d284}{swap}} (T \&a, T \&b)
+\begin{DoxyCompactList}\small\item\em A helper templated function to swap two variables. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{bubblesort_8cpp_a244b0664e0f693e43979623ce63cd323}{bubblesort}} (std\+::vector$<$ int $>$ \&vec)
+\begin{DoxyCompactList}\small\item\em a templated function that bubblesorts the vector provided \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{bubblesort_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{bubblesort_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A program that implements bubblesort. 
+
+\begin{DoxyAuthor}{Author}
+Saurav Bhattarai 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2020/09/29
+\end{DoxyDate}
+Best case runtime\+: O(n$^\wedge$2) Average case runtime\+: O(n $^\wedge$ 2) Worst case runtime\+: O(n $^\wedge$ 2) 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{bubblesort_8cpp_a244b0664e0f693e43979623ce63cd323}\label{bubblesort_8cpp_a244b0664e0f693e43979623ce63cd323}} 
+\index{bubblesort.cpp@{bubblesort.cpp}!bubblesort@{bubblesort}}
+\index{bubblesort@{bubblesort}!bubblesort.cpp@{bubblesort.cpp}}
+\subsubsection{\texorpdfstring{bubblesort()}{bubblesort()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void bubblesort (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$ \&}]{vec }\end{DoxyParamCaption})}
+
+
+
+a templated function that bubblesorts the vector provided 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in,out}}  & {\em vec} & is a vector that is to be sorted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{bubblesort_8cpp_ac2353dbd40ac679cac5ce9213952d284}\label{bubblesort_8cpp_ac2353dbd40ac679cac5ce9213952d284}} 
+\index{bubblesort.cpp@{bubblesort.cpp}!swap@{swap}}
+\index{swap@{swap}!bubblesort.cpp@{bubblesort.cpp}}
+\subsubsection{\texorpdfstring{swap()}{swap()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void swap (\begin{DoxyParamCaption}\item[{T \&}]{a,  }\item[{T \&}]{b }\end{DoxyParamCaption})}
+
+
+
+A helper templated function to swap two variables. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in,out}}  & {\em a} & is the reference to the first variable \\
+\hline
+\mbox{\texttt{ in,out}}  & {\em b} & is the reference to the second variable \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
