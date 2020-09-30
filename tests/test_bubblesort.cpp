@@ -17,7 +17,7 @@
 
 
 
-
+// tests vector of integers
 TEST(TESTBUBBLESORT, INTEGERTEST)
 {
     std::vector< int > vec;
@@ -26,6 +26,7 @@ TEST(TESTBUBBLESORT, INTEGERTEST)
     {
         vec.push_back(rand() % 2001 - 1000);  // randomly generating each number
     }
+    
     bubblesort< int >(vec);
     
     // check if sorted
@@ -41,6 +42,7 @@ TEST(TESTBUBBLESORT, INTEGERTEST)
     ASSERT_EQ(true, inorder);
 }
 
+// runs all the tests
 int main(int argc, char **argv)
 {
     srand(time(NULL)); // seeding the rand function
