@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['test_5fbubblesort_2ecpp',['test_bubblesort.cpp',['../test__bubblesort_8cpp.html',1,'']]]
+  ['selectionsort_2ecpp',['selectionsort.cpp',['../selectionsort_8cpp.html',1,'']]]
 ];
