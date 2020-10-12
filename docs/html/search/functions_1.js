@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['selectionsort',['selectionsort',['../selectionsort_8cpp.html#ac60fe42528bc8f2d8542246dd950bbe9',1,'selectionsort.cpp']]],
-  ['swap',['swap',['../bubblesort_8cpp.html#ac2353dbd40ac679cac5ce9213952d284',1,'swap(T &amp;a, T &amp;b):&#160;bubblesort.cpp'],['../selectionsort_8cpp.html#ac2353dbd40ac679cac5ce9213952d284',1,'swap(T &amp;a, T &amp;b):&#160;selectionsort.cpp']]]
+  ['get_5fkey',['get_key',['../classSLNode.html#a450d9f79e125f99090af4daf6c0a615e',1,'SLNode']]],
+  ['get_5fnext',['get_next',['../classSLNode.html#a83668265730e429423c5b85356623fef',1,'SLNode']]]
 ];

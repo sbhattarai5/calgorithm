@@ -1,0 +1,59 @@
+\hypertarget{classSLNode}{}\section{S\+L\+Node$<$ T $>$ Class Template Reference}
+\label{classSLNode}\index{SLNode$<$ T $>$@{SLNode$<$ T $>$}}
+
+
+a class for node in a singly linked list  
+
+
+
+
+{\ttfamily \#include $<$slnode.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSLNode_a9ed6ae92b17f1a2912cc148961f22437}\label{classSLNode_a9ed6ae92b17f1a2912cc148961f22437}} 
+\mbox{\hyperlink{classSLNode_a9ed6ae92b17f1a2912cc148961f22437}{S\+L\+Node}} (const T \&key, \mbox{\hyperlink{classSLNode}{S\+L\+Node}}$<$ T $>$ $\ast$next=N\+U\+LL)
+\begin{DoxyCompactList}\small\item\em constructor initializes object with key and next pointer param\mbox{[}in\mbox{]} key is the key of the node param\mbox{[}in\mbox{]} next is the pointer to the next node \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSLNode_a450d9f79e125f99090af4daf6c0a615e}\label{classSLNode_a450d9f79e125f99090af4daf6c0a615e}} 
+T \mbox{\hyperlink{classSLNode_a450d9f79e125f99090af4daf6c0a615e}{get\+\_\+key}} () const
+\begin{DoxyCompactList}\small\item\em A getter function to return key\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSLNode_a83668265730e429423c5b85356623fef}\label{classSLNode_a83668265730e429423c5b85356623fef}} 
+\mbox{\hyperlink{classSLNode}{S\+L\+Node}}$<$ T $>$ $\ast$ \mbox{\hyperlink{classSLNode_a83668265730e429423c5b85356623fef}{get\+\_\+next}} () const
+\begin{DoxyCompactList}\small\item\em A getter function to return next\+\_\+. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSLNode_a8f8b8bdc7d6748ec3813e13bb2356d97}\label{classSLNode_a8f8b8bdc7d6748ec3813e13bb2356d97}} 
+void \mbox{\hyperlink{classSLNode_a8f8b8bdc7d6748ec3813e13bb2356d97}{set\+\_\+key}} (const T \&key)
+\begin{DoxyCompactList}\small\item\em A setter function to set key\+\_\+ to given value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSLNode_ad4534c39354156e5f27972911d685173}\label{classSLNode_ad4534c39354156e5f27972911d685173}} 
+void \mbox{\hyperlink{classSLNode_ad4534c39354156e5f27972911d685173}{set\+\_\+next}} (\mbox{\hyperlink{classSLNode}{S\+L\+Node}}$<$ T $>$ $\ast$next)
+\begin{DoxyCompactList}\small\item\em A setter function to set next\+\_\+ to given value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{classSLNode_aa7f4c77a703c20065858ca9ea21f7caa}{operator$<$$<$}} (std\+::ostream \&cout, const \mbox{\hyperlink{classSLNode}{S\+L\+Node}}$<$ T $>$ \&slnode)
+\begin{DoxyCompactList}\small\item\em overloaded operator$<$$<$ to print the node \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class S\+L\+Node$<$ T $>$}
+
+a class for node in a singly linked list 
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classSLNode_aa7f4c77a703c20065858ca9ea21f7caa}\label{classSLNode_aa7f4c77a703c20065858ca9ea21f7caa}} 
+\index{SLNode$<$ T $>$@{SLNode$<$ T $>$}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!SLNode$<$ T $>$@{SLNode$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{cout,  }\item[{const \mbox{\hyperlink{classSLNode}{S\+L\+Node}}$<$ T $>$ \&}]{slnode }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+overloaded operator$<$$<$ to print the node 
+
+debug\+\_\+mode is a static variable that can be set true or false turning debug\+\_\+mode on will display info like this pointer, next pointer 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/student/\+Desktop/all\+\_\+projects/calgorithm/src/data-\/structures/singly-\/linked-\/list/\mbox{\hyperlink{slnode_8h}{slnode.\+h}}\end{DoxyCompactItemize}

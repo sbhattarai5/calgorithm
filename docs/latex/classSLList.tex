@@ -1,0 +1,120 @@
+\hypertarget{classSLList}{}\section{S\+L\+List$<$ T $>$ Class Template Reference}
+\label{classSLList}\index{SLList$<$ T $>$@{SLList$<$ T $>$}}
+
+
+a singly linked list class that uses pointers  
+
+
+
+
+{\ttfamily \#include $<$sllist.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSLList_aa12f6e3004832c294c2bc35d3427a2ba}\label{classSLList_aa12f6e3004832c294c2bc35d3427a2ba}} 
+\mbox{\hyperlink{classSLList_aa12f6e3004832c294c2bc35d3427a2ba}{S\+L\+List}} ()
+\begin{DoxyCompactList}\small\item\em constructor initializes a singly linked list with head pointer as N\+U\+LL \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSLList_ac11ef57b87d54d617c5ed324dda92bd0}\label{classSLList_ac11ef57b87d54d617c5ed324dda92bd0}} 
+\mbox{\hyperlink{classSLList_ac11ef57b87d54d617c5ed324dda92bd0}{$\sim$\+S\+L\+List}} ()
+\begin{DoxyCompactList}\small\item\em destructor that deletes the pointer \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSLList_a3d3edbfd3813b30eec54321555979079}\label{classSLList_a3d3edbfd3813b30eec54321555979079}} 
+int \mbox{\hyperlink{classSLList_a3d3edbfd3813b30eec54321555979079}{size}} () const
+\begin{DoxyCompactList}\small\item\em gets the size of the list \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSLList_afb451968c186c87b26a00caf30de856c}{push\+\_\+front}} (const T \&key)
+\begin{DoxyCompactList}\small\item\em a function that adds item to the head of the list \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSLList_a081a289755af55c21a9cf89f21b48834}{pop\+\_\+front}} ()
+\begin{DoxyCompactList}\small\item\em a function that removes item from the head of the list \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSLNode}{S\+L\+Node}}$<$ T $>$ \& \mbox{\hyperlink{classSLList_a9099e03575aa4acf37a5885d227a96cf}{operator\mbox{[}$\,$\mbox{]}}} (int index)
+\begin{DoxyCompactList}\small\item\em a function that returns the pointer to a node which lives in given index \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSLList_a4e92731d47c5b3a393ecd2e44de14456}{push\+\_\+back}} (const T \&key)
+\begin{DoxyCompactList}\small\item\em adding element to the end of the list \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSLList_ab3c625e93aab3a4f7960720e8a7b06a3}\label{classSLList_ab3c625e93aab3a4f7960720e8a7b06a3}} 
+static bool \mbox{\hyperlink{classSLList_ab3c625e93aab3a4f7960720e8a7b06a3}{debug\+\_\+mode}} = false
+\begin{DoxyCompactList}\small\item\em turning the debug\+\_\+mode will enable debug printing \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSLList_aa8cfe845c51e07dcd3da8f9b5398089b}\label{classSLList_aa8cfe845c51e07dcd3da8f9b5398089b}} 
+std\+::ostream \& \mbox{\hyperlink{classSLList_aa8cfe845c51e07dcd3da8f9b5398089b}{operator$<$$<$}} (std\+::ostream \&cout, const \mbox{\hyperlink{classSLList}{S\+L\+List}}$<$ T $>$ \&sllist)
+\begin{DoxyCompactList}\small\item\em overloaded operator$<$$<$ to print the list \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class S\+L\+List$<$ T $>$}
+
+a singly linked list class that uses pointers 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSLList_a9099e03575aa4acf37a5885d227a96cf}\label{classSLList_a9099e03575aa4acf37a5885d227a96cf}} 
+\index{SLList$<$ T $>$@{SLList$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!SLList$<$ T $>$@{SLList$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classSLNode}{S\+L\+Node}}$<$ T $>$\& \mbox{\hyperlink{classSLList}{S\+L\+List}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+a function that returns the pointer to a node which lives in given index 
+
+\begin{DoxyReturn}{Returns}
+pointer to the node in the given index 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSLList_a081a289755af55c21a9cf89f21b48834}\label{classSLList_a081a289755af55c21a9cf89f21b48834}} 
+\index{SLList$<$ T $>$@{SLList$<$ T $>$}!pop\_front@{pop\_front}}
+\index{pop\_front@{pop\_front}!SLList$<$ T $>$@{SLList$<$ T $>$}}
+\subsubsection{\texorpdfstring{pop\_front()}{pop\_front()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classSLList}{S\+L\+List}}$<$ T $>$\+::pop\+\_\+front (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+a function that removes item from the head of the list 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSLList_a4e92731d47c5b3a393ecd2e44de14456}\label{classSLList_a4e92731d47c5b3a393ecd2e44de14456}} 
+\index{SLList$<$ T $>$@{SLList$<$ T $>$}!push\_back@{push\_back}}
+\index{push\_back@{push\_back}!SLList$<$ T $>$@{SLList$<$ T $>$}}
+\subsubsection{\texorpdfstring{push\_back()}{push\_back()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classSLList}{S\+L\+List}}$<$ T $>$\+::push\+\_\+back (\begin{DoxyParamCaption}\item[{const T \&}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+adding element to the end of the list 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em the} & key of the new node\\
+\hline
+\end{DoxyParams}
+the runtime is O(n) where n is size of the list \mbox{\Hypertarget{classSLList_afb451968c186c87b26a00caf30de856c}\label{classSLList_afb451968c186c87b26a00caf30de856c}} 
+\index{SLList$<$ T $>$@{SLList$<$ T $>$}!push\_front@{push\_front}}
+\index{push\_front@{push\_front}!SLList$<$ T $>$@{SLList$<$ T $>$}}
+\subsubsection{\texorpdfstring{push\_front()}{push\_front()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classSLList}{S\+L\+List}}$<$ T $>$\+::push\+\_\+front (\begin{DoxyParamCaption}\item[{const T \&}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+a function that adds item to the head of the list 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em key} & is the key of the node to be added in the head \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/student/\+Desktop/all\+\_\+projects/calgorithm/src/data-\/structures/singly-\/linked-\/list/\mbox{\hyperlink{sllist_8h}{sllist.\+h}}\end{DoxyCompactItemize}

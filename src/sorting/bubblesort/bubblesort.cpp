@@ -3,7 +3,6 @@
 * @author Saurav Bhattarai
 * @date 2020/09/29
 * @brief A program that implements bubblesort
-*
 * @details Best case runtime: O(n^2)
 * Average case runtime: O(n ^ 2)
 * Worst case runtime: O(n ^ 2)
